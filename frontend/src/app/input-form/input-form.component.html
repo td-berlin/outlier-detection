@@ -1,0 +1,10 @@
+<div style="display: flex; justify-content: center;">
+
+  <div class="example-form">
+
+    <label for="first-name">File: </label>
+    <input type="file" id="first-name" (change)="onFileSelected($event)">
+    <button color="primary" mat-raised-button (click)="uploadFile()">submit</button>
+  </div>
+  
+</div>

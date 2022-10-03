@@ -1,0 +1,11 @@
+
+
+<div mat-dialog-content>
+  <div class="container">
+    <div  echarts [options]="options" class="demo-chart" (chartInit)="onChartInit($event)" ></div>
+  </div>
+  
+</div>
+<div mat-dialog-actions>
+  <button mat-button cdkFocusInitial (click)="onNoClick()" >Close</button>
+</div>
